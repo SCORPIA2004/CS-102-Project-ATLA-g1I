@@ -12,3 +12,5 @@
 -Added 'record_logs' folder
 -Added peronsla record log file
 -Added Group Meetings record file
+-Staged and pushed the above mentioned changes to record_logs branch
+-Merged record_logs branch into main branch
