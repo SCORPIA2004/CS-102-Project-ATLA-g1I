@@ -1,0 +1,14 @@
+[6-Mar-2022]
+-Added ReadMe.md file
+-Commited changes to main branch
+
+[20-Mar-2022]
+-Imported src files into the github repository
+
+[24-Mar-2022]
+-Relocated files in 'src' folder into new folder 'misc'
+-Moved code files into 'src_files' folder
+-Created a branch named 'record_logs'
+-Added 'record_logs' folder
+-Added peronsla record log file
+-Added Group Meetings record file
