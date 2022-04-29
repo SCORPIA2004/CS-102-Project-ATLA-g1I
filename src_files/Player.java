@@ -5,7 +5,7 @@ public class Player{
     // variables
 
     int health;
-    int sheild;
+    int shield;
     int mana;
     Instrument instrument;
     User userProfile;
@@ -19,12 +19,12 @@ public class Player{
         this.health = health;
     }
 
-    public int getSheild() {
-        return this.sheild;
+    public int getshield() {
+        return this.shield;
     }
 
-    public void setSheild(int sheild) {
-        this.sheild = sheild;
+    public void setshield(int shield) {
+        this.shield = shield;
     }
 
     public int getMana() {
@@ -70,11 +70,11 @@ public class Player{
     }
     
     /**
-     * Updates the sheild of the player.
+     * Updates the shield of the player.
      * @param damage damage taken by the player
      */
-    public void updateSheild(int damage){
-        this.sheild = this.sheild - damage;
+    public void updateshield(int damage){
+        this.shield = this.shield - damage;
     }
 
     /**
