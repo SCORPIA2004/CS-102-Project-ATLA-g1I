@@ -4,4 +4,4 @@ Zahaab's record log:
 Worked on detail design report v1
 
 [30/4/2022]
-Learnt Sprint Boot and Vaadin for implementation of webapp and GUI
+Learnt Spring Boot and Vaadin for implementation of webapp and GUI
