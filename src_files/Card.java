@@ -1,3 +1,5 @@
+package src_files;
+
 import java.awt.Image;
 
 public abstract class Card{
@@ -27,8 +29,8 @@ public abstract class Card{
         return this.visibility;
     }
   
-    public void setId(){
-        this.id++;
+    public void setId(int id){
+        this.id = id;
     }
 
     public void setVisibility(boolean visibility){

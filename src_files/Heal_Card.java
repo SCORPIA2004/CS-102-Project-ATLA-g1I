@@ -1,6 +1,8 @@
+package src_files;
+
 public class Heal_Card extends Card
 {
-    public int attackDmg;
+    public int healAmount;
     // private Instrument instrument;
     private int id;
     private int mana;
@@ -10,23 +12,25 @@ public class Heal_Card extends Card
     // manna
     // Instrument type
     // 
-    public Heal_Card(Instrument i, char t, int m, int dmg)
+    public Heal_Card(/*Instrument i,*/ int i, char t, int m, int amount)
     {
-        this.instrument = i;
+        super(i);
+        this.id = i;
+        // this.instrument = i;
         this.typeOfCard = t;
         this.mana = m;
-        this.attackDmg = dmg;
+        this.healAmount = amount;
     }
 
-    public Intrument getInstrument()
-    {
-        return this.instrument;
-    }
+    // public Intrument getInstrument()
+    // {
+    //     return this.instrument;
+    // }
 
     public String getSoundName()
     {
         // "Instrument_TypeOfCard_id"
-        String str = "" + this.instrument.getName() + "_" + this.typeOfCard + "_" + this.id;
+        String str = "" /*+ this.instrument.getName()*/ + "_" + this.typeOfCard + "_" + this.id;
         return str;
     }
 

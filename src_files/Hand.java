@@ -58,4 +58,12 @@ public class Hand {
     public void removeCard(Card card){
         this.thisHand.remove(card);
     }
+
+    public void putRandomCardIntoHand()
+    {
+        Card r = getRandomCard();
+        addCard(r);
+        System.out.println("Added random card into hand");
+    }
+    
 }

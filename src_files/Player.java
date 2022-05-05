@@ -1,7 +1,6 @@
 package src_files;
-public class Player{
-
-
+public class Player
+{
     // variables
 
     int health;
@@ -19,11 +18,11 @@ public class Player{
         this.health = health;
     }
 
-    public int getshield() {
+    public int getShield() {
         return this.shield;
     }
 
-    public void setshield(int shield) {
+    public void setShield(int shield) {
         this.shield = shield;
     }
 
@@ -85,8 +84,4 @@ public class Player{
         this.mana = this.mana - cost;
     }
     
-
-
-
-
 }
