@@ -5,3 +5,6 @@ Worked on detail design report v1
 
 [30/4/2022]
 Learnt Spring Boot and Vaadin for implementation of webapp and GUI
+
+[05/05/2022]
+Initialized Spring Boot files and started on working on the implementation of the webapp and UI through vaadin, html and css
