@@ -8,3 +8,6 @@ Learnt Spring Boot and Vaadin for implementation of webapp and GUI
 
 [05/05/2022]
 Initialized Spring Boot files and started on working on the implementation of the webapp and UI through vaadin, html and css
+
+[06/05/2022]
+Created Main menu and tutorial page and linked buttons to navigate to all pages
