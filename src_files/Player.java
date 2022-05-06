@@ -1,15 +1,25 @@
 package src_files;
-public class Player{
-
-
+public class Player
+{
     // variables
 
     int health;
-    int sheild;
+    int shield;
     int mana;
     Instrument instrument;
+    String strInstrument;
     User userProfile;
     Hand playerHand;
+
+
+    public Player(String i)
+    {
+        strInstrument = i;
+        health = 100;
+        shield = 0;
+        mana = 50;
+        playerHand = new Hand();
+    }
 
     public int getHealth() {
         return this.health;
@@ -19,12 +29,12 @@ public class Player{
         this.health = health;
     }
 
-    public int getSheild() {
-        return this.sheild;
+    public int getShield() {
+        return this.shield;
     }
 
-    public void setSheild(int sheild) {
-        this.sheild = sheild;
+    public void setShield(int shield) {
+        this.shield = shield;
     }
 
     public int getMana() {
@@ -61,6 +71,11 @@ public class Player{
 
     // methods
 
+    public void givePlayerCard()
+    {
+        playerHand.putRandomCardIntoHand();
+    }
+
     /**
      * Updates the health of the player.
      * @param damage damage taken by the player
@@ -70,11 +85,11 @@ public class Player{
     }
     
     /**
-     * Updates the sheild of the player.
+     * Updates the shield of the player.
      * @param damage damage taken by the player
      */
-    public void updateSheild(int damage){
-        this.sheild = this.sheild - damage;
+    public void updateshield(int damage){
+        this.shield = this.shield - damage;
     }
 
     /**
@@ -85,8 +100,4 @@ public class Player{
         this.mana = this.mana - cost;
     }
     
-
-
-
-
 }
