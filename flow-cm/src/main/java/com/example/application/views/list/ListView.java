@@ -34,7 +34,6 @@ public class ListView extends VerticalLayout {
     private void configureGrid() {
         grid.addClassName("contact-grid");
         grid.setSizeFull();
-        grid.setColumns("firstName", )
 
     }
 
