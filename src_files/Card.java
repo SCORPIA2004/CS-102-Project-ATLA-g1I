@@ -5,10 +5,12 @@ import java.awt.Image;
 public abstract class Card{
     // variables
 
-     Instrument instrument;
+    Instrument instrument;
     private boolean visibility;
     private Image cardImage;
+    private int id;
 
+    public abstract char getType();
     //constructor
     public Card(int id)
     {
@@ -17,13 +19,13 @@ public abstract class Card{
 
     //methods
 
-    public int getId(){
-        return this.id;
-    }
+    // public int getId(){
+    //     return this.id;
+    // }
 
-    public int getMana(){
-        return this.mana;
-    }
+    // public int getMana(){
+    //     return this.mana;
+    // }
 
     public boolean isVisible(){
         return this.visibility;

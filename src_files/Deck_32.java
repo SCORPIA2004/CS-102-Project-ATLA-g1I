@@ -40,7 +40,6 @@ public class Deck_32
 
     public void makeCardBlueprints()
     {
-        cardsInDeck = new ArrayList<Card>();
         //----- Piano -----
         Card p_Attack1 = new Attack_Card(0,'a', 2, 2);
         cardsInDeck.add(p_Attack1);
@@ -128,11 +127,14 @@ public class Deck_32
                 System.out.println("ERROR! No of cards in the current deck: " + cardsInDeck.size() + "/32");
             }
         }
+        else
+            System.out.println("Deck made successfully");
     }
 
     //constructor
-    public void Deck32()
+    public Deck_32()
     {
+        cardsInDeck = new ArrayList<Card>();
         makeCardBlueprints();
     }
 }

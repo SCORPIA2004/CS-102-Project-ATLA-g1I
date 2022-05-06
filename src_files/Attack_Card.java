@@ -37,4 +37,9 @@ public class Attack_Card extends Card
     public void dealDamage()
     {
     }
+
+    public char getType()
+    {
+        return typeOfCard;
+    }
 }

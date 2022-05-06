@@ -7,8 +7,19 @@ public class Player
     int shield;
     int mana;
     Instrument instrument;
+    String strInstrument;
     User userProfile;
     Hand playerHand;
+
+
+    public Player(String i)
+    {
+        strInstrument = i;
+        health = 100;
+        shield = 0;
+        mana = 50;
+        playerHand = new Hand();
+    }
 
     public int getHealth() {
         return this.health;
@@ -59,6 +70,11 @@ public class Player
     }
 
     // methods
+
+    public void givePlayerCard()
+    {
+        playerHand.putRandomCardIntoHand();
+    }
 
     /**
      * Updates the health of the player.

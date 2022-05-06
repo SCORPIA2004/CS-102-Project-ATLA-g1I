@@ -1,4 +1,6 @@
 package src_files;
+import java.awt.*;
+
 public class Game {
 
     // variables
@@ -44,8 +46,10 @@ public class Game {
     public void postGame(){
 
     }
-    public boolean playTurn(){
 
+    //TO DO
+    public boolean playTurn(){
+        return false;
     }
     public void playCard(Card card){
 

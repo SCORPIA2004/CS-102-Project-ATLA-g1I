@@ -38,4 +38,9 @@ public class Heal_Card extends Card
     {
         
     }
+    public char getType()
+    {
+        return typeOfCard;
+    }
+
 }
