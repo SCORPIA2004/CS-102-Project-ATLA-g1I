@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!-- Project from https://start.vaadin.com/project/62f3b8b4-32db-4607-ba31-5bd0e24e6e3e -->
+    <!-- Project from https://start.vaadin.com/project/32af51b4-816e-4495-a544-09c3e7cdb3d8 -->
     <groupId>com.example.application</groupId>
     <artifactId>flowcrmtutorial</artifactId>
     <name>Flow CRM Tutorial</name>
