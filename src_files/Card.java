@@ -1,36 +1,38 @@
 package src_files;
+
 import java.awt.Image;
 
 public abstract class Card{
     // variables
 
+    Instrument instrument;
     private boolean visibility;
-    private Instrument instrument;
-    private int id;
-    private int mana;
     private Image cardImage;
+    private int id;
 
+    public abstract char getType();
     //constructor
-    public Card(){
-        setId();
-
+    public Card(int id)
+    {
+        setId(id);
     }
 
     //methods
 
-    public int getId(){
-        return this.id;
-    }
+    // public int getId(){
+    //     return this.id;
+    // }
 
-    public int getMana(){
-        return this.mana;
-    }
+    // public int getMana(){
+    //     return this.mana;
+    // }
 
     public boolean isVisible(){
         return this.visibility;
     }
-    public void setId(){
-        this.id++;
+  
+    public void setId(int id){
+        this.id = id;
     }
 
     public void setVisibility(boolean visibility){

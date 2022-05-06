@@ -12,6 +12,12 @@ public class Hand {
 
     // setters & getters
 
+    public Hand()
+    {
+        gameDeck = new Deck_32();
+        thisHand = new ArrayList<Card>();
+    }
+    
     public ArrayList<Card> getThisHand() {
         return this.thisHand;
     }
@@ -43,7 +49,7 @@ public class Hand {
      *  Generates a random card from the game deck
      */
     public Card getRandomCard(){
-        return null;
+        return gameDeck.getRandomCard();
     }
 
     /**
@@ -51,6 +57,7 @@ public class Hand {
      */
     public void addCard(Card card){
         this.thisHand.add(card);
+        cardsCounter++;
     }
     /**
      * removes card from the arraylist thisHand
@@ -58,4 +65,12 @@ public class Hand {
     public void removeCard(Card card){
         this.thisHand.remove(card);
     }
+
+    public void putRandomCardIntoHand()
+    {
+        Card r = getRandomCard();
+        addCard(r);
+        System.out.println("Added random card into hand");
+    }
+    
 }
