@@ -13,3 +13,9 @@
 -Added peronsla record log file
 -Added Group Meetings record file
 -Merging main and record_logs branches
+
+[05-May-2022]
+-Added game files
+-Wrote code to integrate card generation mechanism
+-Deck and hand generation
+-Worked on arena files
