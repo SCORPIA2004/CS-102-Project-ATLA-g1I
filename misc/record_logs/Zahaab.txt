@@ -11,3 +11,6 @@ Initialized Spring Boot files and started on working on the implementation of th
 
 [06/05/2022]
 Created Main menu and tutorial page and linked buttons to navigate to all pages
+
+[07/05/2022]
+Completed all main menu elements and added empty methods taht will connect the back end to the front end
