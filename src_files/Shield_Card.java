@@ -34,9 +34,9 @@ public class Shield_Card extends Card
         return str;
     }
 
-    public void dealDamage()
+    public int getShieldAmount()
     {
-        
+        return shieldAmount;
     }
     public char getType()
     {

@@ -63,6 +63,7 @@ public class Hand {
      * removes card from the arraylist thisHand
      */
     public void removeCard(Card card){
+        //card will be removed from hand if hand contains the desired card
         this.thisHand.remove(card);
     }
 

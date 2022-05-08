@@ -38,6 +38,10 @@ public class Attack_Card extends Card
     {
     }
 
+    public int getAttackAmount()
+    {
+        return attackAmount;
+    }
     public char getType()
     {
         return typeOfCard;

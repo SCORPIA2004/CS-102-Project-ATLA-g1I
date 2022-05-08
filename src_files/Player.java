@@ -83,13 +83,23 @@ public class Player
     public void updateHealth(int damage){
         this.health = this.health - damage;
     }
+
+    public void healHealth(int amount)
+    {
+        this.health = this.health + amount;
+    }
     
     /**
      * Updates the shield of the player.
      * @param damage damage taken by the player
      */
-    public void updateshield(int damage){
-        this.shield = this.shield - damage;
+    public void updateShield(int amount)
+    {
+        this.shield = this.shield - amount;
+    }
+    public void healShield(int amount)
+    {
+        this.shield = this.shield + amount;
     }
 
     /**

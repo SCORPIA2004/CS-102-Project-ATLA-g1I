@@ -34,9 +34,9 @@ public class Heal_Card extends Card
         return str;
     }
 
-    public void dealDamage()
+    public int getHealAmount()
     {
-        
+        return healAmount;
     }
     public char getType()
     {
