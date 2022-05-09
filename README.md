@@ -2,7 +2,12 @@
 CS 102 Project ATLA g1I Spring 2022
 
 This is the README file. We are going to put important information about the game into this folder.
-Muhammad Shayan Usman 22101343, Zahaab Khawaja 22101038, Dilara Yilmaz 22101646, Özgür İkidağ 22102315, Mohammed Alhaidari 22101490 
+Muhammad Shayan Usman 22101343
+Zahaab Khawaja 22101038
+Mohammed Alhaidari 22101490
+Dilara Yilmaz 22101646
+Özgür İkidağ 22102315
+ 
 
 
 //Introduction
@@ -12,3 +17,4 @@ Muhammad Shayan Usman 22101343, Zahaab Khawaja 22101038, Dilara Yilmaz 22101646,
   - Defensive (Shield generate)
 We will also add multiplayer to allow players on the same network to play together. It will be turn-based so that the game revolves from player to player.
 
+Link to files: https://drive.google.com/file/d/1lIZqH34rhwIP3KRmk-gWzOj-Ap0ezmOC/view?usp=sharing
