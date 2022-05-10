@@ -16,4 +16,4 @@ We will also add multiplayer to allow players on the same network to play togeth
 - Özgür İkidağ | 22102315
 
 
-Link to [files](https://drive.google.com/file/d/1lIZqH34rhwIP3KRmk-gWzOj-Ap0ezmOC/view?usp=sharing)
+Link to [files](https://drive.google.com/drive/folders/1aEpb3byvmofxt5WdhMozPqI4IyeKuPl_?usp=sharing)
