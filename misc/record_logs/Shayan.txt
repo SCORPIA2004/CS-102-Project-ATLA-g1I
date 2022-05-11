@@ -19,3 +19,12 @@
 -Wrote code to integrate card generation mechanism
 -Deck and hand generation
 -Worked on arena files
+
+[06-May-2022]
+-Updated game mechanics
+-Added card types
+
+[08-May-2022]
+-Added turn mechanics
+-Updated Card subclasses
+-Wrote code to execute each player's turn
