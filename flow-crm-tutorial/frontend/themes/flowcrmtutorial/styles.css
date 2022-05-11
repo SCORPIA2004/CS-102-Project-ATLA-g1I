@@ -1,0 +1,51 @@
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+
+.menu {
+    background-image: url("../flowcrmtutorial/images/firebg.gif");
+    background-size: cover;
+}
+
+.tutorial {
+    background-image: url("../flowcrmtutorial/images/firebg.gif");
+    background-size: cover;
+}
+
+.profile {
+    background-image: url("../flowcrmtutorial/images/firebg.gif");
+    background-size: cover;
+}
+
+.profile2 {
+    background-image: url("../flowcrmtutorial/images/firebg.gif");
+    background-size: cover;
+}
+
+.lobby {
+    background-image: url("../flowcrmtutorial/images/firebg.gif");
+    background-size: cover;
+}
+
+.arenaP1TurnRed {
+    background-image: url("../flowcrmtutorial/images/redbg.png");
+    background-size: cover;
+}
+
+.arenaP1TurnRed {
+    background-image: url("../flowcrmtutorial/images/redbg.png");
+    background-size: cover;
+}
+
+.arenaP1TurnGreen {
+    background-image: url("../flowcrmtutorial/images/greenbg.png");
+    background-size: cover;
+}
+
+.arenaP1TurnOrange {
+    background-image: url("../flowcrmtutorial/images/orangebg.png");
+    background-size: cover;
+}
+
+.arenaP1TurnPink {
+    background-image: url("../flowcrmtutorial/images/pinkbg.png");
+    background-size: cover;
+}
