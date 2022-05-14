@@ -12,8 +12,3 @@ We will also add multiplayer to allow players on the same network to play togeth
 - Muhammad Shayan Usman | 22101343
 - Zahaab Khawaja | 22101038
 - Mohammed Alhaidari | 22101490
-- Dilara Yilmaz | 22101646
-- Özgür İkidağ | 22102315
-
-
-Link to [files](https://drive.google.com/drive/folders/1aEpb3byvmofxt5WdhMozPqI4IyeKuPl_?usp=sharing)
