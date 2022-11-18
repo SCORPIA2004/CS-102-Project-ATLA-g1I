@@ -5,6 +5,10 @@ This is the README file. We are going to put important information about the gam
 
 [Tutorial](https://youtu.be/ioeeD3LapDI)
 
+https://user-images.githubusercontent.com/62741526/202794833-bedc37b9-f2e0-46f0-ba3e-d37c87237cb7.mp4
+
+
+
 ## Introduction
 2 player card turn-based game based on musical gameplay. The user will have a basic profile e.g., cast/class, health, stamina, and shield. The player gets a set number of cards (8). They can use special attacks and the entire board can get affected. Cards can have offensive, defensive or gaining health/stamina. Each player can cast a spell or attack on others.
   - Attack: Health damage
